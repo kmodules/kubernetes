@@ -138,32 +138,32 @@ require (
 	gotest.tools v2.2.0+incompatible
 	gotest.tools/gotestsum v0.3.5
 	honnef.co/go/tools v0.0.1-2019.2.2
-	k8s.io/api v0.0.0
-	k8s.io/apiextensions-apiserver v0.0.0
-	k8s.io/apimachinery v0.0.0
-	k8s.io/apiserver v0.0.0
-	k8s.io/cli-runtime v0.0.0
-	k8s.io/client-go v0.0.0
-	k8s.io/cloud-provider v0.0.0
-	k8s.io/cluster-bootstrap v0.0.0
-	k8s.io/code-generator v0.0.0
-	k8s.io/component-base v0.0.0
-	k8s.io/cri-api v0.0.0
-	k8s.io/csi-translation-lib v0.0.0
+	k8s.io/api v0.18.9
+	k8s.io/apiextensions-apiserver v0.18.9
+	k8s.io/apimachinery v0.18.9
+	k8s.io/apiserver v0.18.9
+	k8s.io/cli-runtime v0.18.9
+	k8s.io/client-go v0.18.9
+	k8s.io/cloud-provider v0.18.9
+	k8s.io/cluster-bootstrap v0.18.9
+	k8s.io/code-generator v0.18.9
+	k8s.io/component-base v0.18.9
+	k8s.io/cri-api v0.18.9
+	k8s.io/csi-translation-lib v0.18.9
 	k8s.io/gengo v0.0.0-20200114144118-36b2048a9120
 	k8s.io/heapster v1.2.0-beta.1
 	k8s.io/klog v1.0.0
-	k8s.io/kube-aggregator v0.0.0
-	k8s.io/kube-controller-manager v0.0.0
-	k8s.io/kube-openapi v0.0.0-20200410145947-61e04a5be9a6 // release-1.18
-	k8s.io/kube-proxy v0.0.0
-	k8s.io/kube-scheduler v0.0.0
-	k8s.io/kubectl v0.0.0
-	k8s.io/kubelet v0.0.0
-	k8s.io/legacy-cloud-providers v0.0.0
-	k8s.io/metrics v0.0.0
+	k8s.io/kube-aggregator v0.18.9
+	k8s.io/kube-controller-manager v0.18.9
+	k8s.io/kube-openapi v0.0.0-20200410145947-61e04a5be9a6
+	k8s.io/kube-proxy v0.18.9
+	k8s.io/kube-scheduler v0.18.9
+	k8s.io/kubectl v0.18.9
+	k8s.io/kubelet v0.18.9
+	k8s.io/legacy-cloud-providers v0.18.9
+	k8s.io/metrics v0.18.9
 	k8s.io/repo-infra v0.0.1-alpha.1
-	k8s.io/sample-apiserver v0.0.0
+	k8s.io/sample-apiserver v0.18.9
 	k8s.io/system-validators v1.0.4
 	k8s.io/utils v0.0.0-20200324210504-a9aa75ae1b89
 	sigs.k8s.io/kustomize v2.0.3+incompatible
@@ -534,34 +534,34 @@ replace (
 	gotest.tools/gotestsum => gotest.tools/gotestsum v0.3.5
 	grpc.go4.org => grpc.go4.org v0.0.0-20170609214715-11d0a25b4919
 	honnef.co/go/tools => honnef.co/go/tools v0.0.1-2019.2.2
-	k8s.io/api => ./staging/src/k8s.io/api
-	k8s.io/apiextensions-apiserver => ./staging/src/k8s.io/apiextensions-apiserver
-	k8s.io/apimachinery => ./staging/src/k8s.io/apimachinery
-	k8s.io/apiserver => ./staging/src/k8s.io/apiserver
-	k8s.io/cli-runtime => ./staging/src/k8s.io/cli-runtime
-	k8s.io/client-go => ./staging/src/k8s.io/client-go
-	k8s.io/cloud-provider => ./staging/src/k8s.io/cloud-provider
-	k8s.io/cluster-bootstrap => ./staging/src/k8s.io/cluster-bootstrap
-	k8s.io/code-generator => ./staging/src/k8s.io/code-generator
-	k8s.io/component-base => ./staging/src/k8s.io/component-base
-	k8s.io/cri-api => ./staging/src/k8s.io/cri-api
-	k8s.io/csi-translation-lib => ./staging/src/k8s.io/csi-translation-lib
+	k8s.io/api => k8s.io/api v0.18.9
+	k8s.io/apiextensions-apiserver => k8s.io/apiextensions-apiserver v0.18.9
+	k8s.io/apimachinery => k8s.io/apimachinery v0.18.9
+	k8s.io/apiserver => k8s.io/apiserver v0.18.9
+	k8s.io/cli-runtime => k8s.io/cli-runtime v0.18.9
+	k8s.io/client-go => k8s.io/client-go v0.18.9
+	k8s.io/cloud-provider => k8s.io/cloud-provider v0.18.9
+	k8s.io/cluster-bootstrap => k8s.io/cluster-bootstrap v0.18.9
+	k8s.io/code-generator => k8s.io/code-generator v0.18.9
+	k8s.io/component-base => k8s.io/component-base v0.18.9
+	k8s.io/cri-api => k8s.io/cri-api v0.18.9
+	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.18.9
 	k8s.io/gengo => k8s.io/gengo v0.0.0-20200114144118-36b2048a9120
 	k8s.io/heapster => k8s.io/heapster v1.2.0-beta.1
 	k8s.io/klog => k8s.io/klog v1.0.0
-	k8s.io/kube-aggregator => ./staging/src/k8s.io/kube-aggregator
-	k8s.io/kube-controller-manager => ./staging/src/k8s.io/kube-controller-manager
-	k8s.io/kube-openapi => k8s.io/kube-openapi v0.0.0-20200410145947-61e04a5be9a6 // release-1.18
-	k8s.io/kube-proxy => ./staging/src/k8s.io/kube-proxy
-	k8s.io/kube-scheduler => ./staging/src/k8s.io/kube-scheduler
-	k8s.io/kubectl => ./staging/src/k8s.io/kubectl
-	k8s.io/kubelet => ./staging/src/k8s.io/kubelet
-	k8s.io/legacy-cloud-providers => ./staging/src/k8s.io/legacy-cloud-providers
-	k8s.io/metrics => ./staging/src/k8s.io/metrics
+	k8s.io/kube-aggregator => k8s.io/kube-aggregator v0.18.9
+	k8s.io/kube-controller-manager => k8s.io/kube-controller-manager v0.18.9
+	k8s.io/kube-openapi => k8s.io/kube-openapi v0.0.0-20200410145947-61e04a5be9a6
+	k8s.io/kube-proxy => k8s.io/kube-proxy v0.18.9
+	k8s.io/kube-scheduler => k8s.io/kube-scheduler v0.18.9
+	k8s.io/kubectl => k8s.io/kubectl v0.18.9
+	k8s.io/kubelet => k8s.io/kubelet v0.18.9
+	k8s.io/legacy-cloud-providers => k8s.io/legacy-cloud-providers v0.18.9
+	k8s.io/metrics => k8s.io/metrics v0.18.9
 	k8s.io/repo-infra => k8s.io/repo-infra v0.0.1-alpha.1
-	k8s.io/sample-apiserver => ./staging/src/k8s.io/sample-apiserver
-	k8s.io/sample-cli-plugin => ./staging/src/k8s.io/sample-cli-plugin
-	k8s.io/sample-controller => ./staging/src/k8s.io/sample-controller
+	k8s.io/sample-apiserver => k8s.io/sample-apiserver v0.18.9
+	k8s.io/sample-cli-plugin => k8s.io/sample-cli-plugin v0.18.9
+	k8s.io/sample-controller => k8s.io/sample-controller v0.18.9
 	k8s.io/system-validators => k8s.io/system-validators v1.0.4
 	k8s.io/utils => k8s.io/utils v0.0.0-20200324210504-a9aa75ae1b89
 	modernc.org/cc => modernc.org/cc v1.0.0
