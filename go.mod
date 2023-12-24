@@ -94,37 +94,37 @@ require (
 	gopkg.in/square/go-jose.v2 v2.6.0
 	gopkg.in/yaml.v2 v2.4.0
 	gopkg.in/yaml.v3 v3.0.1
-	k8s.io/api v0.0.0
-	k8s.io/apiextensions-apiserver v0.0.0
-	k8s.io/apimachinery v0.0.0
-	k8s.io/apiserver v0.0.0
-	k8s.io/cli-runtime v0.0.0
-	k8s.io/client-go v0.0.0
-	k8s.io/cloud-provider v0.0.0
-	k8s.io/cluster-bootstrap v0.0.0
-	k8s.io/code-generator v0.0.0
-	k8s.io/component-base v0.0.0
-	k8s.io/component-helpers v0.0.0
-	k8s.io/controller-manager v0.0.0
-	k8s.io/cri-api v0.0.0
-	k8s.io/csi-translation-lib v0.0.0
-	k8s.io/dynamic-resource-allocation v0.0.0
-	k8s.io/endpointslice v0.0.0
+	k8s.io/api v0.29.0
+	k8s.io/apiextensions-apiserver v0.29.0
+	k8s.io/apimachinery v0.29.0
+	k8s.io/apiserver v0.29.0
+	k8s.io/cli-runtime v0.29.0
+	k8s.io/client-go v0.29.0
+	k8s.io/cloud-provider v0.29.0
+	k8s.io/cluster-bootstrap v0.29.0
+	k8s.io/code-generator v0.29.0
+	k8s.io/component-base v0.29.0
+	k8s.io/component-helpers v0.29.0
+	k8s.io/controller-manager v0.29.0
+	k8s.io/cri-api v0.29.0
+	k8s.io/csi-translation-lib v0.29.0
+	k8s.io/dynamic-resource-allocation v0.29.0
+	k8s.io/endpointslice v0.29.0
 	k8s.io/gengo v0.0.0-20230829151522-9cce18d56c01
 	k8s.io/klog/v2 v2.110.1
-	k8s.io/kms v0.0.0
-	k8s.io/kube-aggregator v0.0.0
-	k8s.io/kube-controller-manager v0.0.0
+	k8s.io/kms v0.29.0
+	k8s.io/kube-aggregator v0.29.0
+	k8s.io/kube-controller-manager v0.29.0
 	k8s.io/kube-openapi v0.0.0-20231010175941-2dd684a91f00
-	k8s.io/kube-proxy v0.0.0
-	k8s.io/kube-scheduler v0.0.0
-	k8s.io/kubectl v0.0.0
-	k8s.io/kubelet v0.0.0
-	k8s.io/legacy-cloud-providers v0.0.0
-	k8s.io/metrics v0.0.0
-	k8s.io/mount-utils v0.0.0
-	k8s.io/pod-security-admission v0.0.0
-	k8s.io/sample-apiserver v0.0.0
+	k8s.io/kube-proxy v0.29.0
+	k8s.io/kube-scheduler v0.29.0
+	k8s.io/kubectl v0.29.0
+	k8s.io/kubelet v0.29.0
+	k8s.io/legacy-cloud-providers v0.29.0
+	k8s.io/metrics v0.29.0
+	k8s.io/mount-utils v0.29.0
+	k8s.io/pod-security-admission v0.29.0
+	k8s.io/sample-apiserver v0.29.0
 	k8s.io/system-validators v1.8.0
 	k8s.io/utils v0.0.0-20230726121419-3b25d923346b
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.1
